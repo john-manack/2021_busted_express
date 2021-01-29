@@ -19,7 +19,7 @@ module.exports = [
     },
     {
         id: 4,
-        slug: 'yello_ranger',
+        slug: 'yellow_ranger',
         name: 'Yellow Ranger',
         zord: 'Sabretooth Tiger'
     },
