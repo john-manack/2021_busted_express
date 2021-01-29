@@ -1,6 +1,6 @@
 'use strict';
 
-HTTP = require('HTTP');
+const HTTP = require('http');
 
 const HOSTNAME = '127.0.0.1',
     PORT = 3333;
