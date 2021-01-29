@@ -10,7 +10,7 @@ router.get('/', (req, res) => {
         partials: {
             body: "partials/home",
         }
-    })
-})
+    });
+});
 
 module.exports = router;
