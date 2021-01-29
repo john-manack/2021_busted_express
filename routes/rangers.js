@@ -39,3 +39,4 @@ router.get('/:slug', (req, res) => {
 
 });
 
+module.exports = router;

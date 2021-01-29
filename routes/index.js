@@ -2,13 +2,13 @@
 const express = require('express'),
     router = express.Router();
 
-router.get('/', (rec, res) => {
+router.get('/', (req, res) => {
     res.render('templates', {
         locals: {
-            title: "Home Page"
+            title: "Home Page",
         },
         partials: {
-            body: "partials/home"
+            body: "partials/home",
         }
     })
 })
